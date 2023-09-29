@@ -6,7 +6,7 @@
 Direct speech-to-speech translation achieves high-quality results through the introduction of discrete units obtained from self-supervised learning. This approach circumvents delays and cascading errors associated with model cascading. However, talking head translation, converting audio-visual speech (i.e., talking head video) from one language into another, still confronts several challenges compared to audio speech: (1) Existing methods invariably rely on cascading, synthesizing via both audio and text, resulting in delays and cascading errors. (2) Talking head translation has a limited set of reference frames. If the generated translation exceeds the length of the original speech, the video sequence needs to be supplemented by repeating frames, leading to jarring video transitions. In this work, we propose a model for talking head translation, \textbf{TransFace}, which can directly translate audio-visual speech into audio-visual speech in other languages. It consists of a speech-to-unit translation model to convert audio speech into discrete units and a unit-based audio-visual speech synthesizer, Unit2Lip, to re-synthesize synchronized audio-visual speech from discrete units in parallel. Furthermore, we introduce a Bounded Duration Predictor, ensuring isometric talking head translation and preventing duplicate reference frames. Experiments demonstrate that our proposed Unit2Lip model significantly improves synchronization (1.601 and 0.982 on LSE-C for the original and generated audio speech, respectively) and boosts inference speed by a factor of $\times$4.35 on LRS2. Additionally, TransFace achieves impressive BLEU scores of 61.93 and 47.55 for Es-En and Fr-En on LRS3-T and 100\% isochronous translations.
 # Unit2Lip (Unit-Based Audio-Visual Resynthesis)
 
-## English (training with 29h corpus)
+## English (training with 29h English corpus)
  
 <table>
     <thead>
@@ -39,7 +39,7 @@ Direct speech-to-speech translation achieves high-quality results through the in
     </tbody>
 </table>
 
-## Spanish (training with 15h corpus)
+## Spanish (training with 29h English corpus)
 
 <table>
     <thead>
@@ -72,7 +72,7 @@ Direct speech-to-speech translation achieves high-quality results through the in
     </tbody>
 </table>
 
-## French (training with 15h corpus)
+## French (training with 29h English corpus)
 
 <table>
     <thead>
