@@ -125,30 +125,6 @@ Direct speech-to-speech translation achieves high-quality results through the in
     <tbody>
         <tr>
             <th style="text-align: center">Sample1</th>
-            <td style="text-align: center"><audio controls style="width: 200px;"><source src="case/S2ST/es-en/demo1/source.wav"></audio></td>
-            <td style="text-align: center"><video controls style="width: 200px;"><source src="case/S2ST/es-en/demo1/target.mp4"></video></td>
-            <td style="text-align: center"><video controls style="width: 200px;"><source src="case/S2ST/es-en/demo1/NMT.mp4"></video></td>
-            <td style="text-align: center"><video controls style="width: 200px;"><source src="case/S2ST/es-en/demo1/ST.mp4"></video></td>
-            <td style="text-align: center"><video controls style="width: 200px;"><source src="case/S2ST/es-en/demo1/S2ST_wav2lip.mp4"></video></td>
-            <td style="text-align: center"><video controls style="width: 200px;"><source src="case/S2ST/es-en/demo1/full.mp4"></video></td>
-            <td style="text-align: center"><video controls style="width: 200px;"><source src="case/S2ST/es-en/demo1/full_bounded.mp4"></video></td>
-        </tr>
-    </tbody>
-    <tbody>
-        <tr>
-            <th style="text-align: center">Reference/AVSR</th>
-            <td>Así que el agua era algo que me asustaba para empezar</td>
-            <td>So water was something that scared me to begin with</td>
-            <td>So water was something that scared me in the beginning</td>
-            <td>So water was something that scared me to begin</td>
-            <td>so the water was something that was scaring me to start with</td>
-            <td>so the water was something that was scaring me to start with</td>
-            <td>so the water was something that was scaring me to start with</td>
-        </tr>
-    </tbody>
-    <tbody>
-        <tr>
-            <th style="text-align: center">Sample2</th>
             <td style="text-align: center"><audio controls style="width: 200px;"><source src="case/S2ST/es-en/demo2/source.wav"></audio></td>
             <td style="text-align: center"><video controls style="width: 200px;"><source src="case/S2ST/es-en/demo2/target.mp4"></video></td>
             <td style="text-align: center"><video controls style="width: 200px;"><source src="case/S2ST/es-en/demo2/NMT.mp4"></video></td>
@@ -190,30 +166,6 @@ Direct speech-to-speech translation achieves high-quality results through the in
     <tbody>
         <tr>
             <th style="text-align: center">Sample1</th>
-            <td style="text-align: center"><audio controls style="width: 200px;"><source src="case/S2ST/fr-en/demo1/source.wav"></audio></td>
-            <td style="text-align: center"><video controls style="width: 200px;"><source src="case/S2ST/fr-en/demo1/target.mp4"></video></td>
-            <td style="text-align: center"><video controls style="width: 200px;"><source src="case/S2ST/fr-en/demo1/NMT.mp4"></video></td>
-            <td style="text-align: center"><video controls style="width: 200px;"><source src="case/S2ST/fr-en/demo1/ST.mp4"></video></td>
-            <td style="text-align: center"><video controls style="width: 200px;"><source src="case/S2ST/fr-en/demo1/S2ST_wav2lip.mp4"></video></td>
-            <td style="text-align: center"><video controls style="width: 200px;"><source src="case/S2ST/fr-en/demo1/full.mp4"></video></td>
-            <td style="text-align: center"><video controls style="width: 200px;"><source src="case/S2ST/fr-en/demo1/full_bounded.mp4"></video></td>
-        </tr>
-    </tbody>
-    <tbody>
-        <tr>
-            <th style="text-align: center">Reference/AVSR</th>
-            <td>No fuimos considerados la cosa real</td>
-            <td>we weren't considered the real thing</td>
-            <td>We were not considered the real thing</td>
-            <td>We were not considered the real ones</td>
-            <td>we were not considered as the real thing</td>
-            <td>we were not considered as the real thing</td>
-            <td>we were not considered as the real thing</td>
-        </tr>
-    </tbody>
-    <tbody>
-        <tr>
-            <th style="text-align: center">Sample2</th>
             <td style="text-align: center"><audio controls style="width: 200px;"><source src="case/S2ST/fr-en/demo2/source.wav"></audio></td>
             <td style="text-align: center"><video controls style="width: 200px;"><source src="case/S2ST/fr-en/demo2/target.mp4"></video></td>
             <td style="text-align: center"><video controls style="width: 200px;"><source src="case/S2ST/fr-en/demo2/NMT.mp4"></video></td>
@@ -260,7 +212,7 @@ Direct speech-to-speech translation achieves high-quality results through the in
     </tbody>
     <tbody>
         <tr>
-            <th style="text-align: center">Sample1</th>
+            <th style="text-align: center">Sample2</th>
             <td style="text-align: center"><video controls style="width: 200px;"><source src="case/S2ST/en-es/demo2/source.mp4"></video></td>
             <td style="text-align: center"><audio controls style="width: 200px;"><source src="case/S2ST/en-es/demo2/target.wav"></audio></td>
             <td style="text-align: center"><video controls style="width: 200px;"><source src="case/S2ST/en-es/demo2/s2st.mp4"></video></td>
@@ -293,7 +245,7 @@ Direct speech-to-speech translation achieves high-quality results through the in
     </tbody>
     <tbody>
         <tr>
-            <th style="text-align: center">Sample1</th>
+            <th style="text-align: center">Sample2</th>
             <td style="text-align: center"><video controls style="width: 200px;"><source src="case/S2ST/en-fr/demo2/source.mp4"></video></td>
             <td style="text-align: center"><audio controls style="width: 200px;"><source src="case/S2ST/en-fr/demo2/target.wav"></audio></td>
             <td style="text-align: center"><video controls style="width: 200px;"><source src="case/S2ST/en-fr/demo2/s2st.mp4"></video></td>
